@@ -50,6 +50,5 @@ export async function p2pTransfer(to: string, amount: number) {
                 timestamp: new Date()
             }
           })
-          // locking
     });
 }
